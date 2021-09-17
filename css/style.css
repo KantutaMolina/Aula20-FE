@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ display: grid;
+ grid-template-columns: 150px 1fr;
+ grid-template-rows: 125px 1080px;
+}
+
+
+header{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background: rgb(65, 12, 65);
+  color: white;
+  font-family: 'Cairo', sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1::first-letter{
+  color: rgb(187, 155, 87);
+}
+
+main{
+  font-family: 'Poppins', sans-serif;
+  background: rgba(230, 205, 228, 0.774);
+}
+
+h2{
+    text-align: center;
+}
+.menu{
+  background: rgb(65, 12, 65);
+  font-family: 'Poppins', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    padding: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.gato img{
+  width: 100%;
+}
+
+.gato{
+  font-weight: solid;
+  text-align: justify;
+  padding: 50px;
+}
